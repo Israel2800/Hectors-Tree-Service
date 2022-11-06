@@ -7,6 +7,6 @@ export default function About({ params }) {
                 Hectors Tree Service
             </div>
         </section>
-    )
+    );
     
 }
