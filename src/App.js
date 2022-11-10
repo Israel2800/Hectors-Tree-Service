@@ -1,16 +1,10 @@
 // import logo from './logo.svg';
 // import './App.css';
+import React from "react";
+import MainContainer from "./components/MainContainer";
 
 import About from "./components/pages/About";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <About />
-      </header>
-    </div>
-  );
-}
+const App = () => <MainContainer />;
 
 export default App;
