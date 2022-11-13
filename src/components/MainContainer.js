@@ -11,11 +11,11 @@ export default function MainContainer() {
     const renderPage = () => {
         if (currentPage === 'About') {
             return <About />;
-          }
-          if (currentPage ==='Contact') {
+        }
+        if (currentPage ==='Contact') {
             return <Contact />;
-          }
-          
+        }
+        
             return <About />;
     };
     
