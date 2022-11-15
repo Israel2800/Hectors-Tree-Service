@@ -6,7 +6,7 @@ import { FaStackOverflow } from "@react-icons/all-files/fa/FaStackOverflow"
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-center">
+    <footer className="container bg-gray-800 text-center">
       <div className="px-6 pt-4 pb-4">
         <div className="flex justify-center mb-2">
             <a className="w-12" href="https://github.com/Israel2800" target="_blank" rel="noreferrer">  

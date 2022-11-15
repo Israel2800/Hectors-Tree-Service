@@ -51,6 +51,17 @@ export default function About() {
             </p>
           </div>
         </div>
+        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-white w-1/4">
+          <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center">
+            <p className='text-green-600 text-3xl font-serif'>
+              We will maintain your space clean and beautiful
+            </p> 
+            <p className='text-green-800 text-xl font-serif mt-6'>
+              Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
+              To provide your tree with top-notch care, enlist a reputable tree care company. In La Vergne, Brentwood, Smyrna & Mt. Juliet, TN and surrounding areas, G Professional Tree Service is here to help. We'll give every tree the attentive services that it deserves.
+            </p>
+          </div>
+        </div>
       </section>
     );
     
