@@ -56,13 +56,7 @@ export default function About() {
         
         {/* Third section */}
         <div className=" px-10 py-20 flex flex-wrap sm:flex-row sm:justify-around">
-          <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-emerald-700 relative">
-            <img
-              alt="1"
-              className="absolute inset-0 w-full h-full object-center"
-              src={tree}
-              style={{ width:"850px", height:"250px" }}
-            />
+          <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center" style={{backgroundImage: `url(${tree})`}}>
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
             </p> 
