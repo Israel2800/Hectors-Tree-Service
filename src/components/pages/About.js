@@ -1,6 +1,7 @@
 import React from 'react';
 import HLogo from "../../assets/HLogo.png";
 import tree from "../../assets/images/1.jpg";
+import Reviews from './Reviews';
 
 export default function About() {
     return(
@@ -56,7 +57,7 @@ export default function About() {
         
         {/* Third section */}
         <div className=" px-10 py-20 flex flex-wrap sm:flex-row sm:justify-around">
-          <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center" style={{backgroundImage: `url(${tree})`}}>
+          <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5" style={{backgroundImage: `url(${tree})`}}>
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
             </p> 
@@ -88,6 +89,11 @@ export default function About() {
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
+        </div>
+
+        {/* Fourth Section */}
+        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-white">
+          <Reviews />
         </div>
        
       </section>
