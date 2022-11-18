@@ -92,7 +92,7 @@ export default function About() {
         </div>
 
         {/* Fourth Section */}
-        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-white">
+        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-slate-600">
           <Reviews />
         </div>
        
