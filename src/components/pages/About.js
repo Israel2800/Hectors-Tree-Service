@@ -3,7 +3,7 @@ import HLogo from "../../assets/HLogo.png";
 import tree from "../../assets/images/1.jpg";
 import Reviews from './Reviews';
 
-export default function About() {
+export default function About({handlePageChange}) {
     return(
       <section id="about">
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -24,20 +24,20 @@ export default function About() {
               Mt. Juliet, TN
             </p>
 
-            {/* <div className="flex justify-center">
+            <div className="flex justify-center">
               <a
                 href="#contact"
                 className="inline-flex text-white bg-cyan-500 border-0 py-2 px-6 focus:outline-none hover:bg-cyan-700 rounded text-lg"
                 onClick={() => handlePageChange('Contact')}>
                 Contact Me
               </a>
-              <a
+              {/* <a
                 href="#projects"
                 className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
                 onClick={() => handlePageChange('Projects')}>
                 See My Projects
-              </a>
-            </div> */}
+              </a> */}
+            </div>
           </div>
           
 
