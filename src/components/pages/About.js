@@ -1,7 +1,7 @@
 import React from 'react';
 import HLogo from "../../assets/HLogo.png";
 import tree from "../../assets/images/1.jpg";
-import Reviews from './Reviews';
+import Testimonials from './Reviews';
 
 export default function About({handlePageChange}) {
     return(
@@ -93,7 +93,7 @@ export default function About({handlePageChange}) {
 
         {/* Fourth Section */}
         <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-slate-600">
-          <Reviews />
+          <Testimonials />
         </div>
        
       </section>
