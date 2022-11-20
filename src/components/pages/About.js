@@ -1,7 +1,7 @@
 import React from 'react';
 import HLogo from "../../assets/HLogo.png";
 import tree from "../../assets/images/1.jpg";
-import Testimonials from './Reviews';
+import Testimonials from './Testimonials';
 
 export default function About({handlePageChange}) {
     return(
@@ -97,7 +97,7 @@ export default function About({handlePageChange}) {
         </div>
 
         {/* Fifth Section */}
-        <div className="">
+        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-white">
           ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
         </div>
        
