@@ -97,8 +97,10 @@ export default function About({handlePageChange}) {
         </div>
 
         {/* Fifth Section */}
-        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-white mb-16 md:mb-0">
-          ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
+        <div className="flex px-10 py-20 md:flex-row flex-col  bg-white  justify-center">
+          <p className=''>
+            ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
+          </p>
         </div>
        
       </section>
