@@ -97,10 +97,33 @@ export default function About({handlePageChange}) {
         </div>
 
         {/* Fifth Section */}
-        <div className="flex px-10 py-20 md:flex-row flex-col  bg-white  justify-center">
-          <p className=''>
+        <div className="flex px-10 py-20 md:flex-row flex-col  bg-white justify-center">
+          <p className="text-4xl text-center">
             ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
           </p>
+        </div>
+
+        {/* Sixth Section */}
+        <div className="flex px-10 py-20 md:flex-row flex-col bg-emerald-700 justify-center">
+          <div className='relative my-2'>
+            <p className="text-6xl text-center mb-5">
+              What do we offer to you?
+            </p>
+            <p className="text-2xl text-justify">
+              We'll tend to your trees in several ways. We offer a variety of tree care services, including:
+            </p>
+          </div>
+          <div className="relative">
+              <div>
+                Box 1
+              </div>
+              <div>
+                Box 2
+              </div>
+              <div>
+                Box 3
+              </div>
+          </div>
         </div>
        
       </section>
