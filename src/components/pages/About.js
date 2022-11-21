@@ -97,7 +97,7 @@ export default function About({handlePageChange}) {
         </div>
 
         {/* Fifth Section */}
-        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-white">
+        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-white mb-16 md:mb-0">
           ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
         </div>
        
