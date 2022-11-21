@@ -56,7 +56,7 @@ export default function About({handlePageChange}) {
         </div>
         
         {/* Third section */}
-        <div className=" px-10 py-20 flex flex-wrap sm:flex-row sm:justify-around">
+        <div className="px-10 py-20 flex flex-wrap sm:flex-row sm:justify-around">
           <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5" style={{backgroundImage: `url(${tree})`}}>
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
@@ -113,14 +113,14 @@ export default function About({handlePageChange}) {
               We'll tend to your trees in several ways. We offer a variety of tree care services, including:
             </p>
           </div>
-          <div className="relative">
-              <div>
+          <div className="relative px-10 py-20 flex flex-wrap sm:flex-row sm:justify-around">
+              <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
                 Box 1
               </div>
-              <div>
+              <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
                 Box 2
               </div>
-              <div>
+              <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
                 Box 3
               </div>
           </div>
