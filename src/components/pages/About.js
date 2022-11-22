@@ -104,7 +104,7 @@ export default function About({handlePageChange}) {
         </div>
 
         {/* Sixth Section */}
-        <div className="flex px-10 py-20 flex-wrap bg-emerald-700 justify-center w-full bg-hero bg-contain bg-center bg-no-repeat">
+        <div className="flex px-10 py-20 flex-wrap bg-emerald-700 justify-center w-full bg-section6 bg-cover bg-fixed bg-center bg-no-repeat opacity-70 hover:opacity-80">
           <div className=' my-2'>
             <p className="text-6xl text-center mb-5">
               What do we offer to you?
