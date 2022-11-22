@@ -104,7 +104,7 @@ export default function About({handlePageChange}) {
         </div>
 
         {/* Sixth Section */}
-        <div className="flex px-10 py-20 md:flex-row flex-col bg-emerald-700 justify-center w-full">
+        <div className="flex px-10 py-20 flex-wrap bg-emerald-700 justify-center w-full bg-hero bg-contain bg-center bg-no-repeat">
           <div className=' my-2'>
             <p className="text-6xl text-center mb-5">
               What do we offer to you?
@@ -113,15 +113,30 @@ export default function About({handlePageChange}) {
               We'll tend to your trees in several ways. We offer a variety of tree care services, including:
             </p>
           </div>
-          <div className="px-10 py-20 flex flex-wrap sm:flex-row sm:justify-around w-full">
-              <div className="h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
-                Box 1
+          <div className="px-10 py-20 flex flex-wrap sm:justify-around w-full">
+              <div className="h-12 items-center text-center mx-5 my-5 bg-cover bg-center px-5">
+                <p className="text-3xl ">
+                  01
+                </p>
+                <p className="text-2xl">
+                  Box 1
+                </p>
               </div>
-              <div className="h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
-                Box 2
+              <div className="h-12 items-center text-center mx-5 my-5 bg-cover bg-center px-5">
+                <p className="text-3xl ">
+                  02
+                </p>
+                <p className="text-2xl ">
+                  Box 2
+                </p>
               </div>
-              <div className="h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
-                Box 3
+              <div className="h-12 items-center text-center mx-5 my-5 bg-cover bg-center px-5">
+                <p className="text-3xl ">
+                  03
+                </p>
+                <p className="text-2xl ">
+                  Box 3
+                </p>
               </div>
           </div>
         </div>
