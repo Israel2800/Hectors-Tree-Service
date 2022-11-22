@@ -104,8 +104,8 @@ export default function About({handlePageChange}) {
         </div>
 
         {/* Sixth Section */}
-        <div className="flex px-10 py-20 md:flex-row flex-col bg-emerald-700 justify-center">
-          <div className='relative my-2'>
+        <div className="flex px-10 py-20 md:flex-row flex-col bg-emerald-700 justify-center w-full">
+          <div className=' my-2'>
             <p className="text-6xl text-center mb-5">
               What do we offer to you?
             </p>
@@ -113,14 +113,14 @@ export default function About({handlePageChange}) {
               We'll tend to your trees in several ways. We offer a variety of tree care services, including:
             </p>
           </div>
-          <div className="relative px-10 py-20 flex flex-wrap sm:flex-row sm:justify-around">
-              <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
+          <div className="px-10 py-20 flex flex-wrap sm:flex-row sm:justify-around w-full">
+              <div className="h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
                 Box 1
               </div>
-              <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
+              <div className="h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
                 Box 2
               </div>
-              <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
+              <div className="h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5">
                 Box 3
               </div>
           </div>
