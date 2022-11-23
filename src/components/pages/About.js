@@ -140,6 +140,21 @@ export default function About({handlePageChange}) {
               </div>
           </div>
         </div>
+        
+        {/* Section 7 */}
+        <div className="flex px-10 py-20 md:flex-row flex-col  bg-white justify-center">
+          {/* Change p to image */}
+          <p className="text-4xl text-center">
+            (Logo)
+          </p>
+        </div>
+        
+        {/* Section 8 */}
+        <div className="flex px-10 py-20 md:flex-row flex-col  bg-white justify-center">
+          <p className="text-4xl w-1/2 text-right">
+            ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
+          </p>
+        </div>
        
       </section>
     );
