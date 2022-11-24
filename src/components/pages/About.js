@@ -2,6 +2,8 @@ import React from 'react';
 import HLogo from "../../assets/HLogo.png";
 import tree from "../../assets/images/1.jpg";
 import Testimonials from './Testimonials';
+import { GiFruitTree } from "@react-icons/all-files/gi/GiFruitTree"
+import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 
 export default function About({handlePageChange}) {
     return(
@@ -142,17 +144,18 @@ export default function About({handlePageChange}) {
         </div>
         
         {/* Section 7 */}
-        <div className="flex px-10 py-20 md:flex-row flex-col  bg-white justify-center">
-          {/* Change p to image */}
-          <p className="text-4xl text-center">
-            (Logo)
-          </p>
+        <div className="flex px-10 pt-20 md:flex-row flex-col  bg-white justify-center">
+          {/* Change to image */}
+          <GiTreeBranch className="w-12 h-full inline-block"/> 
         </div>
         
         {/* Section 8 */}
-        <div className="flex px-10 py-20 md:flex-row flex-col  bg-white justify-center">
-          <p className="text-4xl w-1/2 text-right">
+        <div className="flex px-10 py-20 flex-row bg-white justify-center">
+          <p className="px-4 text-4xl w-1/2 text-right">
             ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
+          </p>
+          <p className="px-4 text-4xl w-1/2 text-left">
+            The second part of the text!
           </p>
         </div>
        
