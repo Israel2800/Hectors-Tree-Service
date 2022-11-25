@@ -44,8 +44,14 @@ export default function About({handlePageChange}) {
           
 
         </div>
+        
+        {/* Icon section */}
+        <div className="flex px-10 pt-20 flex-row bg-white justify-center">
+          {/* Change to image */}
+          <GiTreeBranch className="w-12 h-full inline-block text-green-600"/> 
+        </div>
         {/* Second section */}
-        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-white">
+        <div className="flex px-10 pt-5 pb-20 md:flex-row flex-col items-center bg-white">
           <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center">
             <p className='text-green-600 text-3xl font-serif'>
               We will maintain your space clean and beautiful
@@ -144,9 +150,9 @@ export default function About({handlePageChange}) {
         </div>
         
         {/* Section 7 */}
-        <div className="flex px-10 pt-20 md:flex-row flex-col  bg-white justify-center">
+        <div className="flex px-10 pt-20 flex-row bg-white justify-center">
           {/* Change to image */}
-          <GiTreeBranch className="w-12 h-full inline-block"/> 
+          <GiTreeBranch className="w-12 h-full inline-block text-green-600"/> 
         </div>
         
         {/* Section 8 */}
