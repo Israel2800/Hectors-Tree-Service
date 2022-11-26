@@ -66,26 +66,7 @@ export default function About({handlePageChange}) {
         </div>
         
         {/* Third section */}
-        <div className="px-0 py-0 grid md:grid-cols-2 bg-slate-600">
-          {/* {services.map((service) => (
-            <a key={service.image}>
-              <img
-                  alt="Tree Removal"
-                  className="absolute inset-0 w-full h-full object-center"
-                  src={service.image}
-                />
-                <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14  bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
-                  <p className='text-white text-3xl font-serif text-center'>
-                    TREE REMOVAL
-                  </p> 
-                  <p className='text-white text-xl font-serif mt-6'>
-                    Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
-                  </p>
-                </div>
-            </a>
-          ))} */}
-          
-          
+        <div className="px-0 py-0 grid md:grid-cols-2 bg-slate-600">          
           <div className=" w-full items-center text-justify mx-0 my-0 px-12 py-14">
             <img className="absolute bg-cover bg-center bg-no-repeat opacity-30 hover:opacity-60" src={HLogo}/>
             {/* <div className="absolute bg-gray-900 bg-opacity-75"></div> */}
