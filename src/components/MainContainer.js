@@ -22,7 +22,7 @@ export default function MainContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <main className="text-indigo-100 bg-emerald-700	w-full">
+        <main className="text-indigo-100 bg-zinc-800 w-full">
             <Router>
                 <div>
                     {/* We are passing the currentPage from state and the function to update it */}
