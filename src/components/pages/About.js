@@ -73,7 +73,7 @@ export default function About({handlePageChange}) {
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
-          <div className="w-full h-72 items-center text-justify mx-0 my-0 bg-cover bg-center px-5" style={{backgroundImage: `url(${tree})`}}>
+          <div className="w-full h-72 items-center text-justify mx-0 my-0 px-5 py-5 bg-stumpRemoval bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
             </p> 
@@ -81,7 +81,7 @@ export default function About({handlePageChange}) {
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
-          <div className="w-full h-72 items-center text-justify mx-0 my-0 bg-cover bg-center px-5" style={{backgroundImage: `url(${tree})`}}>
+          <div className="w-full h-72 items-center text-justify mx-0 my-0 px-5 py-5 bg-stumpRemoval bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
             </p> 
@@ -89,7 +89,7 @@ export default function About({handlePageChange}) {
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
-          <div className="w-full h-72 items-center text-justify mx-0 my-0 bg-cover bg-center px-5" style={{backgroundImage: `url(${tree})`}}>
+          <div className="w-full h-72 items-center text-justify mx-0 my-0 px-5 py-5 bg-stumpRemoval bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
             </p> 
