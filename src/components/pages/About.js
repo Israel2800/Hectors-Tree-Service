@@ -87,13 +87,15 @@ export default function About({handlePageChange}) {
           
           
           <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14">
-            <img className="bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60" src={HLogo}/>
-            <p className='text-white text-3xl font-serif text-center'>
-              TREE REMOVAL
-            </p> 
-            <p className='text-white text-xl font-serif mt-6'>
-              Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
-            </p>
+            <img className="relative bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60" src={HLogo}/>
+            <div className="absolute bg-gray-800 opacity-100">
+              <p className=' text-white text-3xl font-serif text-center'>
+                TREE REMOVAL
+              </p> 
+              <p className=' text-white text-xl font-serif mt-6'>
+                Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
+              </p>
+            </div>  
           </div>
           <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14 bg-treeTrimming bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
             <p className='text-white text-3xl font-serif text-center'>
