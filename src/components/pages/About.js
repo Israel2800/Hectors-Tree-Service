@@ -86,9 +86,10 @@ export default function About({handlePageChange}) {
           ))} */}
           
           
-          <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14">
-            <img className="relative bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60" src={HLogo}/>
-            <div className="absolute bg-gray-800 opacity-100">
+          <div className=" w-full items-center text-justify mx-0 my-0 px-12 py-14">
+            <img className="absolute bg-cover bg-center bg-no-repeat opacity-30 hover:opacity-60" src={HLogo}/>
+            {/* <div className="absolute bg-gray-900 bg-opacity-75"></div> */}
+            <div className="flex flex-col items-center justify-center relative">
               <p className=' text-white text-3xl font-serif text-center'>
                 TREE REMOVAL
               </p> 
@@ -97,7 +98,7 @@ export default function About({handlePageChange}) {
               </p>
             </div>  
           </div>
-          <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14 bg-treeTrimming bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
+          <div className="text-white w-full items-center text-justify mx-0 my-0 px-12 py-14 bg-treeTrimming bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
             <p className='text-white text-3xl font-serif text-center'>
               TREE TRIMMING
             </p> 
