@@ -64,8 +64,8 @@ export default function About({handlePageChange}) {
         </div>
         
         {/* Third section */}
-        <div className="px-10 py-20 flex flex-wrap sm:flex-row sm:justify-around">
-          <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-cover bg-center px-5" style={{backgroundImage: `url(${tree})`}}>
+        <div className="px-0 py-0 grid md:grid-cols-2 bg-slate-600">
+          <div className="w-full h-72 items-center text-justify mx-0 my-0 px-5 py-5 bg-stumpRemoval bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
             </p> 
@@ -73,7 +73,7 @@ export default function About({handlePageChange}) {
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
-          <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-emerald-700">
+          <div className="w-full h-72 items-center text-justify mx-0 my-0 bg-cover bg-center px-5" style={{backgroundImage: `url(${tree})`}}>
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
             </p> 
@@ -81,7 +81,7 @@ export default function About({handlePageChange}) {
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
-          <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-emerald-700">
+          <div className="w-full h-72 items-center text-justify mx-0 my-0 bg-cover bg-center px-5" style={{backgroundImage: `url(${tree})`}}>
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
             </p> 
@@ -89,7 +89,7 @@ export default function About({handlePageChange}) {
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
-          <div className="sm:w-1/3 h-72 items-center text-justify mx-5 my-5 bg-emerald-700">
+          <div className="w-full h-72 items-center text-justify mx-0 my-0 bg-cover bg-center px-5" style={{backgroundImage: `url(${tree})`}}>
             <p className='text-white text-3xl font-serif'>
               We will maintain your space clean and beautiful
             </p> 
