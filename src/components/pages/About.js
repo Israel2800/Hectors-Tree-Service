@@ -4,12 +4,14 @@ import tree from "../../assets/images/1.jpg";
 import Testimonials from './Testimonials';
 import { GiFruitTree } from "@react-icons/all-files/gi/GiFruitTree"
 import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
+import { services } from '../../data';
 
 export default function About({handlePageChange}) {
     return(
       <section id="about">
-        <div className="mx-auto flex px-10 py-20 md:flex-row flex-col items-center bg-mainImage bg-cover bg-fixed bg-center bg-no-repeat opacity-60 hover:opacity-100">
-          <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center">
+        <div className="mx-auto flex px-10 py-20 md:flex-row flex-col items-center bg-mainImage bg-cover bg-fixed bg-center bg-no-repeat bg-opacity-75 hover:opacity-100">
+          <img className=""/>
+          <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center ">
             <img
               className="object-cover object-center rounded-lg mb-8 leading-relaxed text-justify"
               alt="hero"
@@ -65,7 +67,27 @@ export default function About({handlePageChange}) {
         
         {/* Third section */}
         <div className="px-0 py-0 grid md:grid-cols-2 bg-slate-600">
-          <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14 bg-treeRemoval bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
+          {/* {services.map((service) => (
+            <a key={service.image}>
+              <img
+                  alt="Tree Removal"
+                  className="absolute inset-0 w-full h-full object-center"
+                  src={service.image}
+                />
+                <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14  bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
+                  <p className='text-white text-3xl font-serif text-center'>
+                    TREE REMOVAL
+                  </p> 
+                  <p className='text-white text-xl font-serif mt-6'>
+                    Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
+                  </p>
+                </div>
+            </a>
+          ))} */}
+          
+          
+          <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14">
+            <img className="bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60" src={HLogo}/>
             <p className='text-white text-3xl font-serif text-center'>
               TREE REMOVAL
             </p> 
