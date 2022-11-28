@@ -71,7 +71,7 @@ export default function About({handlePageChange}) {
           <div className="items-center text-justify mx-0 my-0 px-12 py-12">
             <div className="items-center justify-center relative">
               <a
-                className="absolute w-full h-full items-center bg-treeRemoval bg-cover bg-center bg-no-repeat opacity-60 hover:opacity-40"
+                className="absolute w-full h-full items-center bg-treeRemoval bg-center bg-no-repeat opacity-60 hover:opacity-40"
               />
               <p className='relative text-white text-3xl font-serif text-center'>
                 TREE REMOVAL
