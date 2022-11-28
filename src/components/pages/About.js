@@ -2,6 +2,7 @@ import React from 'react';
 import HLogo from "../../assets/HLogo.png";
 import tree from "../../assets/images/tree-trimming.jpg";
 import Testimonials from './Testimonials';
+import Services from "./Services";
 import { GiFruitTree } from "@react-icons/all-files/gi/GiFruitTree"
 import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 import { services } from '../../data';
@@ -66,21 +67,21 @@ export default function About({handlePageChange}) {
         </div>
         
         {/* Third section */}
-        <div className="px-0 py-0 grid md:grid-cols-2 bg-slate-600 "> 
-        <img className="absolute opacity-30 hover:opacity-60" src={tree}/>
-         
-          <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14">
-            {/* <div className="absolute bg-gray-900 bg-opacity-75"></div> */}
-            <div className="flex flex-col items-center justify-center relative">
-              <h1 className=' text-white text-3xl font-serif text-center'>
+        <div className="px-0 py-0 grid md:grid-cols-2 bg-slate-600 ">          
+          <div className="items-center text-justify mx-0 my-0 px-12 py-12">
+            <div className="items-center justify-center relative">
+              <a
+                className="absolute w-full h-full items-center bg-treeRemoval bg-cover bg-center bg-no-repeat opacity-60 hover:opacity-40"
+              />
+              <p className='relative text-white text-3xl font-serif text-center'>
                 TREE REMOVAL
-              </h1> 
-              <p className=' text-white text-xl font-serif mt-6'>
+              </p> 
+              <p className='relative text-white text-xl font-serif mt-6'>
                 Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
               </p>
             </div>  
           </div>
-          <div className="text-white w-full items-center text-justify mx-0 my-0 px-12 py-14 bg-treeTrimming bg-cover bg-center bg-no-repeat ">
+          <div className="relative text-white w-full items-center text-justify mx-0 my-0 px-12 py-14 bg-treeTrimming bg-cover bg-center bg-no-repeat opacity-70">
             <p className='text-white text-3xl font-serif text-center'>
               TREE TRIMMING
             </p> 
