@@ -68,40 +68,47 @@ export default function About({handlePageChange}) {
         
         {/* Third section */}
         <div className="px-0 py-0 grid md:grid-cols-2 bg-slate-600 ">          
-          <div className="items-center text-justify mx-0 my-0 px-12 py-12">
-            <div className="items-center justify-center relative">
-              <a
-                className="absolute w-full h-full items-center bg-treeRemoval bg-center bg-no-repeat opacity-60 hover:opacity-40"
-              />
-              <p className='relative text-white text-3xl font-serif text-center'>
-                TREE REMOVAL
-              </p> 
-              <p className='relative text-white text-xl font-serif mt-6'>
-                Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
-              </p>
-            </div>  
+          <div className="items-center text-justify mx-0 my-0 relative w-full h-full">
+            <a
+              className="absolute w-full h-full bg-treeRemoval bg-cover bg-no-repeat opacity-60"
+            />
+            <p className='relative text-white text-3xl font-serif text-center px-12 pt-14 '>
+              TREE REMOVAL
+            </p> 
+            <p className='relative text-white text-xl font-serif px-12 mt-6 pb-14'>
+              Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
+            </p>
           </div>
-          <div className="relative text-white w-full items-center text-justify mx-0 my-0 px-12 py-14 bg-treeTrimming bg-cover bg-center bg-no-repeat opacity-70">
-            <p className='text-white text-3xl font-serif text-center'>
+          <div className="items-center text-justify mx-0 my-0 relative w-full h-full">
+            <a
+              className="absolute w-full h-full bg-treeTrimming bg-cover bg-no-repeat opacity-60"
+            />
+            <p className='relative text-white text-3xl font-serif text-center px-12 pt-14 '>
               TREE TRIMMING
             </p> 
-            <p className='text-white text-xl font-serif mt-6'>
+            <p className='relative text-white text-xl font-serif px-12 mt-6 pb-14'>
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
-          <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14 bg-stumpRemoval bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
-            <p className='text-white text-3xl font-serif text-center'>
+          <div className="items-center text-justify mx-0 my-0 relative w-full h-full">
+            <a
+              className="absolute w-full h-full bg-stumpRemoval bg-cover bg-no-repeat opacity-60"
+            />
+            <p className='relative text-white text-3xl font-serif text-center px-12 pt-14 '>
               STUMP REMOVAL
             </p> 
-            <p className='text-white text-xl font-serif mt-6'>
+            <p className='relative text-white text-xl font-serif px-12 mt-6 pb-14'>
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
-          <div className="w-full items-center text-justify mx-0 my-0 px-12 py-14 bg-treeCare bg-cover bg-center bg-no-repeat opacity-70 hover:opacity-60">
-            <p className='text-white text-3xl font-serif text-center'>
+          <div className="items-center text-justify mx-0 my-0 relative w-full h-full">
+            <a
+              className="absolute w-full h-full bg-treeCare bg-cover bg-no-repeat opacity-60"
+            />
+            <p className='relative text-white text-3xl font-serif text-center px-12 pt-14 '>
               TREE CARE
             </p> 
-            <p className='text-white text-xl font-serif mt-6'>
+            <p className='relative text-white text-xl font-serif px-12 mt-6 pb-14'>
               Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?
             </p>
           </div>
