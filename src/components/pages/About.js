@@ -115,7 +115,7 @@ export default function About({handlePageChange}) {
         </div>
         
         {/* Fourth Section */}
-        <div className="flex px-10 py-20 md:flex-row flex-col items-center bg-slate-600">
+        <div id="testimonials"className="">
           <Testimonials />
         </div>
 
