@@ -166,11 +166,11 @@ export default function About({handlePageChange}) {
         </div>
         
         {/* Section 8 */}
-        <div className="flex px-10 py-20 flex-row bg-white justify-center">
-          <p className="px-4 text-4xl w-1/2 text-right">
+        <div className="flex px-10 pt-8 pb-14 md:flex-row flex-col bg-white justify-center">
+          <p className="px-4 text-4xl sm:w-1/2 sm:text-right text-center">
             ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
           </p>
-          <p className="px-4 text-4xl w-1/2 text-left">
+          <p className="px-4 sm:pt-0 pt-8 text-4xl sm:w-1/2 sm:text-left text-center">
             The second part of the text!
           </p>
         </div>
