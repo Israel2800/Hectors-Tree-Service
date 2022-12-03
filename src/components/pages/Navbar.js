@@ -10,7 +10,6 @@ export default function Navbar({ handlePageChange }) {
                     <a 
                         href="#about" className="ml-3 text-xl"
                         onClick={() => handlePageChange('About')}>
-                        
                     </a>
                 </a>
                 <nav className=" md:py-1  md:border-gray-700	flex flex-wrap items-center text-base justify-center">
@@ -21,6 +20,20 @@ export default function Navbar({ handlePageChange }) {
                     onClick={() => handlePageChange('Services')}>
                     Services
                     <BiChevronDown size ={20}/>
+                    <ul className="bg-white mt-2">
+                        <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
+                            Sample
+                        </li>
+                        <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
+                            Sample
+                        </li>
+                        <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
+                            Sample
+                        </li>
+                        <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
+                            Sample
+                        </li>
+                    </ul>
                 </a>
 
                 {/* Services */}
