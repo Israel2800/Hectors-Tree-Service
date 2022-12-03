@@ -1,5 +1,6 @@
 import React from 'react';
 import HLogo from '../../assets/HLogo.png';
+import { BiChevronDown } from "react-icons/bi"; 
 
 export default function Navbar({ handlePageChange }) {
     return (
@@ -14,11 +15,15 @@ export default function Navbar({ handlePageChange }) {
                 </a>
                 <nav className=" md:py-1  md:border-gray-700	flex flex-wrap items-center text-base justify-center">
                 </nav>
+
                 <a 
                     href="#services" className=" hover:text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                     onClick={() => handlePageChange('Services')}>
                     Services
+                    <BiChevronDown size ={20}/>
                 </a>
+
+                {/* Services */}
                 <a 
                     href="#TreeRemoval" className=" hover:text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
                     
