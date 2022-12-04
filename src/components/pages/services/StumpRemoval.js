@@ -5,7 +5,7 @@ export default function StumpRemoval() {
         <section className="">
             <div className="container">
                 <image>
-
+                    
                 </image>
                 <div>
                     
