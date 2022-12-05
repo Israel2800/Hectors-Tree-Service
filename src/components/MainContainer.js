@@ -17,8 +17,10 @@ export default function MainContainer() {
         if (currentPage ==='Contact') {
             return <Contact />;
         }
-        if (currentPage === 'TreeCare')
+        if (currentPage === 'TreeCare') {
             return <TreeCare />;
+        }
+        return <About />
     };
     
     const handlePageChange = (page) => setCurrentPage(page);
