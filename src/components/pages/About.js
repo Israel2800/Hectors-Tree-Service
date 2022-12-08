@@ -116,7 +116,7 @@ export default function About({ handlePageChange }) {
 
         {/* Fifth Section */}
         <div className="flex px-10 py-20 md:flex-row flex-col  bg-white justify-center">
-          <p className="text-4xl text-center">
+          <p className="text-4xl text-center text-green-600">
             ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
           </p>
         </div>
@@ -167,10 +167,10 @@ export default function About({ handlePageChange }) {
         
         {/* Section 8 */}
         <div className="flex px-10 pt-8 pb-14 md:flex-row flex-col bg-white justify-center">
-          <p className="px-4 text-4xl sm:w-1/2 sm:text-right text-center">
+          <p className="px-4 text-4xl sm:w-1/2 sm:text-right text-center text-green-600">
             ARRANGE FOR EXCELLENT TREE SERVICE IN LA VERGNE, BRENTWOOD, SMYRNA & MT. JULIET, TN
           </p>
-          <p className="px-4 sm:pt-0 pt-8 text-4xl sm:w-1/2 sm:text-left text-center">
+          <p className="px-4 sm:pt-0 pt-8 text-4xl sm:w-1/2 sm:text-left text-center text-green-600">
             The second part of the text!
           </p>
         </div>
