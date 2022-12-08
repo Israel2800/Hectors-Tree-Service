@@ -32,7 +32,6 @@ export default function MainContainer() {
         if (currentPage === 'Trimming') {
             return <Trimming />;
         }
-        return <About />
     };
     
     const handlePageChange = (page) => setCurrentPage(page);
