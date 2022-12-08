@@ -4,7 +4,10 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
+import StumpRemoval from "./pages/services/StumpRemoval";
 import TreeCare from "./pages/services/TreeCare";
+import TreeRemoval from "./pages/services/TreeRemoval";
+import Trimming from "./pages/services/Trimming";
 // import Services from "pages/Services";
 
 export default function MainContainer() {
@@ -17,8 +20,17 @@ export default function MainContainer() {
         if (currentPage ==='Contact') {
             return <Contact />;
         }
+        if (currentPage === 'StumpRemoval') {
+            return <StumpRemoval />;
+        }
         if (currentPage === 'TreeCare') {
             return <TreeCare />;
+        }
+        if (currentPage === 'TreeRemoval') {
+            return <TreeRemoval />;
+        }
+        if (currentPage === 'Trimming') {
+            return <Trimming />;
         }
         return <About />
     };
