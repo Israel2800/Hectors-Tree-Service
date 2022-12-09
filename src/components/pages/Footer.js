@@ -6,8 +6,7 @@ import { FaStackOverflow } from "@react-icons/all-files/fa/FaStackOverflow"
 
 const Footer = () => {
   return (
-    <footer className=" bg-gray-800 text-center">
-      <div className="px-6 pt-4 pb-4">
+    <footer className="bg-gray-800 text-center px-6 pt-4 pb-4">
         <div className="flex justify-center mb-2">
             <a className="w-12" href="https://github.com/Israel2800" target="_blank" rel="noreferrer">  
               <SiGithub className="w-7 h-full mx-auto fill-cyan-100 hover:fill-sky-300" />
@@ -18,12 +17,10 @@ const Footer = () => {
             <a className="w-12 text-white" href="https://stackoverflow.com/users/18821721/israel-aguilar" target="_blank" rel="noreferrer">  
               <FaStackOverflow className="w-7 h-full mx-auto fill-cyan-100 hover:fill-sky-300" />
             </a>
-            
         </div>
         <div className="git"> 
           © 2022 Hector's Tree Service
         </div>
-      </div>
     </footer>
   );
 };
