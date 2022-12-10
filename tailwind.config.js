@@ -10,6 +10,7 @@ module.exports = {
         "treeTrimming": "url('../src/assets/images/tree-trimming.jpg')",
         "stumpRemoval": "url('../src/assets/images/stump-removal.jpg')",
         "treeCare": "url('../src/assets/images/tree-care.jpg')",
+        "treeR": "url('../src/assets/images/3.jpg')"
       }
     },
   },

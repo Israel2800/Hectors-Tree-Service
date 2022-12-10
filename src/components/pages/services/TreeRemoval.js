@@ -4,7 +4,7 @@ import HLogo from "../../../assets/HLogo.png";
 export default function TreeRemoval({ handlePageChange }) {
     return(
         <section className="">
-            <div className="mx-auto flex px-10 py-20 md:flex-row flex-col items-center bg-mainImage bg-cover bg-fixed bg-center bg-no-repeat bg-opacity-75 hover:opacity-100">
+            <div className="mx-auto flex px-10 py-20 md:flex-row flex-col items-center bg-treeR bg-cover bg-fixed bg-center bg-no-repeat bg-opacity-75 hover:opacity-100">
                 <div className="lg:flex-grow flex flex-col mb-16 md:mb-0 items-center text-center ">
                     <img
                         className="object-cover object-center rounded-lg mb-8 leading-relaxed text-justify"
