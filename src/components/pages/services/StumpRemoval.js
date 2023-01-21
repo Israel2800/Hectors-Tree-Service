@@ -21,6 +21,17 @@ export default function StumpRemoval() {
                         Hector's Tree Service provides reliable tree care services in La Vergne, Brentwood, Smyrna & 
                         Mt. Juliet, TN
                     </p>
+                    
+                    <p>At our stump removal service, we provide professional and efficient removal of tree stumps for both residential and commercial properties. Our team of trained and experienced professionals are equipped with the necessary tools and equipment to safely and efficiently remove the stump, leaving your property looking neat and tidy.</p>
+                        <h2>Our Services Include:</h2>
+                            <ul>
+                              <li>Stump grinding using specialized equipment</li>
+                              <li>Removal of wood chips and debris</li>
+                              <li>Eco-friendly techniques and proper disposal of waste materials</li>
+                              <li>Flexible scheduling to accommodate your needs</li>
+                            </ul>
+                    <p>Don't let that unsightly stump ruin the appearance of your property. Contact us today to schedule your stump removal service.</p>
+            
                 </div>
             </div>
         </section>
