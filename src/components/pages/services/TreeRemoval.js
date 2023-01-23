@@ -21,6 +21,14 @@ export default function TreeRemoval({ handlePageChange }) {
                         Hector's Tree Service provides reliable tree care services in La Vergne, Brentwood, Smyrna & 
                         Mt. Juliet, TN
                     </p>
+                    <p>We offer professional tree removal services for both residential and commercial properties. Our experienced team can safely and efficiently remove any unwanted trees from your property.</p>
+                    <h2>Services Offered:</h2>
+                    <ul>
+                      <li>Tree removal</li>
+                      <li>Stump grinding</li>
+                      <li>Tree trimming</li>
+                      <li>Emergency tree removal</li>
+                    </ul>
 
                     <div className="flex justify-center">
                         <a
