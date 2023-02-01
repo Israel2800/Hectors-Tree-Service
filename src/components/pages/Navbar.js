@@ -11,7 +11,7 @@ export default function Navbar({ handlePageChange }) {
                     onClick={() => handlePageChange('About')}>
                     Services
                     <BiChevronDown size ={20}/>
-                    {/* <ul className="bg-white mt-2">
+                     <ul className="bg-white mt-2">
                         <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
                             Sample
                         </li>
@@ -24,7 +24,7 @@ export default function Navbar({ handlePageChange }) {
                         <li className="p-2 text-sm hover:bg-sky-600 hover:text-white">
                             Sample
                         </li>
-                    </ul> */}
+                    </ul> 
                 </a>
 
                 {/* Services */}
