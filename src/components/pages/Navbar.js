@@ -52,6 +52,11 @@ export default function Navbar({ handlePageChange }) {
                     onClick={() => handlePageChange('TreeCare')}>
                     Tree Care
                 </a>
+                    href="#TreeCare" className=" hover:text-white inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+                    
+                    onClick={() => handlePageChange('TreeCare')}>
+                    Emergency Care
+                </a>
                 <a
                     href="#Contact"
                     className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
