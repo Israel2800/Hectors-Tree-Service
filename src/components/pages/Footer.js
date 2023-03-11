@@ -18,7 +18,7 @@ const Footer = () => {
               <FaStackOverflow className="w-7 h-full mx-auto fill-cyan-100 hover:fill-sky-300" />
             </a>
         </div>
-        <div className="git"> 
+        <div className="git buttom-0 display-flex"> 
           © 2022 Hector's Tree Service
         </div>
     </footer>
