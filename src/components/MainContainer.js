@@ -34,6 +34,7 @@ export default function MainContainer() {
         }
     };
     
+    // Will display de current page, still need to make the renderPage return
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
