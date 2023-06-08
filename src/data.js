@@ -31,9 +31,9 @@ export const services = [
     image: require('./assets/images/tree-care.jpg'),
     description: "Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?"    
   },
-  {
-    title: "General Services",
-    image: require('./assets/images/general-services.jpg'),
-    description: "Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?"    
-  },
+  // {
+  //   title: "General Services",
+  //   image: require('./assets/images/general-services.jpg'),
+  //   description: "Every tree that you own provides your property with beautiful scenery, shade and curb appeal. Shouldn't you make sure such prominent and useful landscape features are well cared for?"    
+  // },
 ]
