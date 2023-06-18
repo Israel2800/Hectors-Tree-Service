@@ -2,7 +2,7 @@ import React from 'react';
 import HLogo from "../../assets/HLogo.png";
 import tree from "../../assets/images/tree-trimming.jpg";
 import Testimonials from './Testimonials';
-import Services from "./Services";
+// import Services from "./Services";
 import { GiFruitTree } from "@react-icons/all-files/gi/GiFruitTree"
 import { GiTreeBranch } from "@react-icons/all-files/gi/GiTreeBranch"
 import { services } from '../../data';

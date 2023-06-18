@@ -1,4 +1,5 @@
 import React from "react";
+import HLogo from "../../../assets/HLogo.png"
 
 export default function Trimming() {
     return(
